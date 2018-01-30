@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+
+
+
+
+ <question>
+  <type>text</type>
+  <title>Como se llama el objeto de AP que aumenta un 35% de poder de habilidad</title>
+  <answer>Sombrero mortal de rabadon</answer>
+ </question>
+ 
+ <question>
+  <type>text</type>
+  <title>¿Cual fue la recompensa en la s1 si llegabas a oro?</title>
+  <answer>Jarvan victorioso</answer>
+ </question>
+ 
+ <question>
+  <type>select</type>
+  <title>¿Como se llama el objeto que proporciona 35% de penetración mágica?</title>
+  <option>Bastón del vacío</option>
+  <option>Ningúna</option> 
+  <option>Vara de las edades</option>
+  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+  <question>
+  <type>select</type>
+  <title>¿Qué nombre recibe la habilidad definitiva (R) de Yasuo?</title>
+  <option>SORIEKETON</option>
+  <option>Último aliento</option> 
+  <option>Chispa final</option>
+  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ 
+ <question>
+  <type>multiple</type>
+  <title>¿Qué personaje es capaz de crear un clon de sí mismo?</title>
+  <option>Shaco</option>
+  <option>Thresh</option> 
+  <option>LeBlanc</option> 
+  <option>Galio</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+
+  <question>
+  <type>multiple</type>
+  <title>¿Cuál de estos personajes no escala con AP?</title>
+  <option>Zed</option>
+  <option>Lucian</option> 
+  <option>Talon</option> 
+  <option>Jinx</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+ 
+ 
+   <question>
+  <type>checkbox</type>
+  <title>¿Cuál de estos objetos te da AP?</title>
+  <option>Incensario ardiente</option>
+  <option>Redención</option> 
+  <option>Hoja de furia de Guinsoo</option> 
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+
+ 
+    <question>
+  <type>checkbox</type>
+  <title>¿Cuál de estos campeones tiene 2 o más habilidades de stuneo?</title>
+  <option>Nautilus</option>
+  <option>Warwick</option> 
+  <option>Leona</option> 
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+
+ 
+     <question>
+  <type>radio</type>
+  <title>¿Cuánto reducción de enfiermiento proporciona el objeto La cuchilla negra?</title>
+  <option>10%</option>
+  <option>15%</option> 
+  <option>20%</option> 
+  <answer>3</answer>
+ </question>
+ 
+ 
+     <question>
+  <type>radio</type>
+  <title>¿Cómo se llama la definitiva de Thresh?</title>
+  <option>La cárcel</option>
+  <option>La caja</option> 
+  <option>La prisión</option> 
+  <answer>2</answer>
+ </question>
+ 
+ 
+ 
+ 
+ </questions>
