@@ -20,7 +20,7 @@
   <type>select</type>
   <title>¿Como se llama el objeto que proporciona 35% de penetración mágica?</title>
   <option>Bastón del vacío</option>
-  <option>Ningúna</option> 
+  <option>Ninguna</option> 
   <option>Vara de las edades</option>
   <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
