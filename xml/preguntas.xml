@@ -58,6 +58,8 @@
  </question>
  
  
+ <!--
+ 
    <question>
   <type>checkbox</type>
   <title>¿Cuál de estos objetos te da AP?</title>
@@ -99,7 +101,7 @@
   <answer>2</answer>
  </question>
  
- 
+ -->
  
  
  </questions>
