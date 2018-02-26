@@ -6,19 +6,19 @@
 
  <question>
   <type>text</type>
-  <title>Como se llama el objeto de AP que aumenta un 35% de poder de habilidad</title>
+  <title>Cómo se llama el objeto de AP que aumenta un 35% de poder de habilidad</title>
   <answer>Sombrero mortal de rabadon</answer>
  </question>
  
  <question>
   <type>text</type>
-  <title>¿Cual fue la skin victoriosa en la s1 si llegabas a oro?</title>
+  <title>¿Cuál fue la skin victoriosa en la s1 si llegabas a oro?</title>
   <answer>Jarvan victorioso</answer>
  </question>
  
  <question>
   <type>select</type>
-  <title>¿Como se llama el objeto que proporciona 35% de penetración mágica?</title>
+  <title>¿Cómo se llama el objeto que proporciona 35% de penetración mágica?</title>
   <option>Bastón del vacío</option>
   <option>Ninguna</option> 
   <option>Vara de las edades</option>
