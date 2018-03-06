@@ -83,3 +83,8 @@ input[type=radio]{
 #text{
 	font-size:100%;
 }
+.t{
+	font-weight:bold;
+	font-size:115%;
+	padding:1%;
+}
