@@ -5,7 +5,7 @@ link XML https://rawgit.com/Bohdan0913/jsxml/master/xml/preguntas.xml
 
 # Proyecto Formulario
 
-Accede al Formulario desde aquí https://rawgit.com/Bohdan0913/jsxml/master/index.html
+Accede al Formulario desde aquí https://rawgit.com/Bohdan0913/jsxml/minify-version/index.html
 
 ## Lenguajes utilizados
 **Se han usado los siguientes lenguajes:**
