@@ -1,35 +1,35 @@
 var formElement=null;
 
-//Las variables de las respuestas Select
+
 var respuestaSelect=null;
 var respuestaSelect1=null;
 
-//Las variables de las respuestas Radio tipo Array[]
+
 var respuestasRadio=[];
 var respuestasRadio1=[];
 
-//Las variables de las respuestas texto
+
 var text1 = null;
 var text2 = null;
 
-//Las variables de las respuestas Multiple[]
+
 var respuestaMultiple = [];
 var respuestaMultiple1 = [];
 
-//Las variables de las respuestas Checkbox
+
 var respuestasCheckbox = [];
 var respuestasCheckbox1 = [];
 
-//Variable para saber la puntuacion conseguida en el test
+
 var nota = 0;
 
-////////////////////////////////////////////////////////////////////////////////////////////*
-//Carga el onload
+
+
 window.onload = function(){ 
 
 
 
- //Correccion pulsando el boton
+
  formElement=document.getElementById('myform');
  formElement.onsubmit=function(){
    
@@ -70,7 +70,7 @@ window.onload = function(){
  xhttp.send();
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////*
+
  
 function gestionarXml(dadesXml){
  var xmlDoc = dadesXml.responseXML; //Aqui hacemos el Parseo
@@ -193,7 +193,7 @@ ponerDatostextHtml(tituloSelect);
 
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////*
+
 //Corrección
 
 //Corregir pregunta de text 1
@@ -389,20 +389,20 @@ function corregirCheckbox1(){
 
 
 
-///////////////////////////////////////////////////////////////////////////////////*
 
-// PONER DATOS TEXT 1 en el documento HTML
+
+
 function ponerDatosInputHtml(t){
  document.getElementById("text").innerHTML = t;
 }
 
-// PONER DATOS TEXT 2 en el documento HTML
+
 function ponerDatostextHtml(t){
  document.getElementById("text1").innerHTML = t;
 }
 
 
-//PONER DATOS SELECT 1 en el documento HTML
+
 
 function ponerDatosSelectHtml(t,opt){
   document.getElementById("select").innerHTML=t;
@@ -415,7 +415,7 @@ function ponerDatosSelectHtml(t,opt){
  }  
 }
 
-//PONER DATOS SELECT 2 en el documento HTML
+
 function ponerDatosSelectHtml1(t,opt){
   document.getElementById("select1").innerHTML=t;
   var select = document.getElementsByTagName("select")[1];
@@ -428,7 +428,7 @@ function ponerDatosSelectHtml1(t,opt){
 }
 
 
-//PONER DATOS CHECKBOX 1 en el documento HTML
+
 function ponerDatosCheckboxHtml(t,opt){
  var checkboxContainer=document.getElementById('checkbox1');
  var h3 = document.createElement("h3");
@@ -447,7 +447,7 @@ function ponerDatosCheckboxHtml(t,opt){
  }  
 }
 
-//PONER DATOS CHECKBOX 2 en el documento HTML
+
 function ponerDatosCheckboxHtml1(t,opt){
  var checkboxContainer=document.getElementById('checkbox2');
  var h3 = document.createElement("h3");
@@ -466,7 +466,7 @@ function ponerDatosCheckboxHtml1(t,opt){
  }  
 }
 
-//PONER DATOS RADIO 1 en el documento HTML
+
 function ponerDatosradio(t,opt){
  var radioContainer=document.getElementById('radio');
  var h3 = document.createElement("h3");
@@ -487,7 +487,7 @@ function ponerDatosradio(t,opt){
 }
 
 
-//PONER DATOS RADIO 2 en el documento HTML
+
 function ponerDatosradio1(t,opt){
  var radioContainer=document.getElementById('radio1');
  var h3 = document.createElement("h3");
@@ -508,7 +508,7 @@ function ponerDatosradio1(t,opt){
 }
 
 
-//PONER DATOS MULTIPLE 1 en el documento HTML
+
 function ponerDatosMultiHtml(t,opt){
   document.getElementById("multiple").innerHTML=t;
   var select = document.getElementsByTagName("select")[2];
@@ -520,7 +520,7 @@ function ponerDatosMultiHtml(t,opt){
  }  
 }
 
-//PONER DATOS MULTIPLE 1 en el documento HTML
+
 function ponerDatosMultiHtml1(t,opt){
   document.getElementById("multiple1").innerHTML=t;
   var select = document.getElementsByTagName("select")[3];
@@ -532,8 +532,8 @@ function ponerDatosMultiHtml1(t,opt){
  }  
 }
 
-//****************************************************************************************************
-//Gestionar la presentación de las respuestas
+
+
 function darRespuestaHtml(r){
  var resDiv=document.getElementById('resultadosDiv');
  var p = document.createElement("p");
