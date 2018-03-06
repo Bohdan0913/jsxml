@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	background: linear-gradient(to left, #990002, #011897 136%);
+}
+.todo{
+	background: #ffc107;
+    text-align: left;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 33px;
+    box-shadow: 9px 2px 21px -1px black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+.header{
+	padding:6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.derecha{
+	width: 68%;
+    float: right;
+    text-align: center;
+	margin-top: -4%;
+	margin-right: -3%;
+}
+.izquierda{
+	float: left;
+    text-align: center;
+    width: 23%;
+    top:1%;
+    position: absolute;
+}
+.about{
+	margin:6%;
+	text-decoration: none;
+    font-size: 5vW;
+	color:white;
+	margin-right:5%;
+}
+.titulo{
+	text-align:center;
+}
+a:hover.about{
+	background-color:orange;
+}
+.img{
+	width:100%;
+}
+.info{
+	font-size: 110%;
+    text-align: center;
+}
+.img1{
+	width:60%;
+}
+.textoindice{
+	font-size:120%;
+}
