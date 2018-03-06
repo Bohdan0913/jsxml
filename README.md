@@ -5,7 +5,7 @@ link XML https://rawgit.com/Bohdan0913/jsxml/master/xml/preguntas.xml
 
 # Proyecto Formulario
 
-Prueba el juego aquí https://rawgit.com/Bohdan0913/Lunar_Lander_JS/master/index.html
+Accede al Formulario desde aquí https://rawgit.com/Bohdan0913/jsxml/master/index.html
 
 ## Lenguajes utilizados
 **Se han usado los siguientes lenguajes:**
