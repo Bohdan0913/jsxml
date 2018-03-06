@@ -4,104 +4,103 @@
 
 
 
- <question>
+ <question id='1'>
   <type>text</type>
-  <title>¿Cómo se llama el objeto de AP que aumenta un 40% el poder de habilidad?</title>
+  <text>¿Cómo se llama el objeto de AP que aumenta un 40% el poder de habilidad?</text>
   <answer>Sombrero mortal de rabadon</answer>
  </question>
  
- <question>
+ <question id='2'>
   <type>text</type>
-  <title>¿Cuál fue la skin victoriosa en la s1 si llegabas a oro?</title>
+  <text>¿Cuál fue la skin victoriosa en la s1 si llegabas a oro?</text>
   <answer>Jarvan victorioso</answer>
  </question>
  
- <question>
+ <question id='3'>
   <type>select</type>
-  <title>¿Cómo se llama el objeto que proporciona 35% de penetración mágica?</title>
+  <text>¿Cómo se llama el objeto que proporciona 35% de penetración mágica?</text>
   <option>Bastón del vacío</option>
-  <option>Ninguna</option> 
+  <option>La Sanguinaria</option> 
   <option>Vara de las edades</option>
-  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  <option>Ninguna</option>
+  <answer>3</answer>
  </question>
  
-  <question>
+  <question id='4'>
   <type>select</type>
-  <title>¿Qué nombre recibe la habilidad definitiva (R) de Yasuo?</title>
-  <option>SORIEKETON</option>
-  <option>Último aliento</option> 
+  <text>¿Qué nombre recibe la habilidad definitiva (R) de Yasuo?</text>
+  <option>Último aliento</option>
+  <option>SORIEKETON</option> 
   <option>Chispa final</option>
-  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+  <option>Sentencia</option>
+  <answer>0</answer>
  </question>
  
  
- <question>
+ <question id='5'>
   <type>multiple</type>
-  <title>¿Qué personaje es capaz de crear un clon de sí mismo?</title>
-  <option>Shaco</option>
-  <option>Thresh</option> 
-  <option>LeBlanc</option> 
+  <text>¿Qué personaje es capaz de crear un clon de sí mismo?</text>
+  <option>Thresh</option>
+  <option>Shaco</option> 
+  <option>Caitlyn</option> 
   <option>Galio</option>
   <answer>1</answer>
-  <answer>3</answer>
  </question>
 
-  <question>
+  <question id='6'>
   <type>multiple</type>
-  <title>¿Cuál de estos personajes no escala con AP?</title>
-  <option>Zed</option>
+  <text>¿Cuál de estos personajes no escala con AP?</text>
+  <option>Talon</option>
   <option>Lucian</option> 
-  <option>Talon</option> 
-  <option>Jinx</option>
-  <answer>1</answer>
-  <answer>3</answer>
- </question>
- 
- 
-
- 
-   <question>
-  <type>checkbox</type>
-  <title>¿Cuál de estos objetos te da AP?</title>
-  <option>Incensario ardiente</option>
-  <option>Redención</option> 
-  <option>Hoja de furia de Guinsoo</option> 
-  <answer>1</answer>
-  <answer>3</answer>
- </question>
-
- 
-    <question>
-  <type>checkbox</type>
-  <title>¿Cuál de estos campeones tiene 2 o más habilidades de stuneo?</title>
-  <option>Nautilus</option>
-  <option>Warwick</option> 
-  <option>Leona</option> 
-  <answer>1</answer>
-  <answer>3</answer>
- </question>
-
- 
-     <question>
-  <type>radio</type>
-  <title>¿Cuánto reducción de enfiermiento proporciona el objeto La cuchilla negra?</title>
-  <option>10%</option>
-  <option>15%</option> 
-  <option>20%</option> 
-  <answer>3</answer>
- </question>
- 
- 
-     <question>
-  <type>radio</type>
-  <title>¿Cómo se llama la definitiva de Thresh?</title>
-  <option>La cárcel</option>
-  <option>La caja</option> 
-  <option>La prisión</option> 
+  <option>Zed</option> 
+  <option>Ashe</option>
   <answer>2</answer>
  </question>
  
+ 
 
+ 
+     <question id='7'>
+  <type>radio</type>
+  <text>¿Cuánto reducción de enfiermiento proporciona el objeto La Cuchilla Negra?</text>
+  <option>20%%</option>
+  <option>15%</option> 
+  <option>10%</option> 
+  <option>5%</option> 
+  <answer>0</answer>
+ </question>
+ 
+ 
+     <question id='8'>
+  <type>radio</type>
+  <text>¿Cómo se llama la definitiva de Thresh?</text>
+  <option>La caja</option>
+  <option>La cárcel</option> 
+  <option>La prisión</option>
+  <option>El cubo</option> 
+  <answer>1</answer>
+ </question>
+ 
+   <question id='9'>
+  <type>checkbox</type>
+  <text>¿Cuál de estos objetos te da AP?</text>
+  <option>La Cuchilla Negra</option>
+  <option>Redención</option> 
+  <option>Incensario ardiente</option> 
+  <option>Sanguinaria</option> 
+  <answer>2</answer>
+ </question>
+
+ 
+    <question id='10'>
+  <type>checkbox</type>
+  <text>¿Cuál de estos campeones tiene 2 o más habilidades de stuneo?</text>
+  <option>Leona</option>
+  <option>Warwick</option> 
+  <option>Caitlyn</option>
+  <option>Thresh</option>
+  <answer>0</answer>
+ </question>
  
  
  </questions>
