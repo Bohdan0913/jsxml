@@ -1,0 +1,113 @@
+{
+   "@noNamespaceSchemaLocation": "preguntas.xsd",
+   "question": [
+      {
+         "@id": "1",
+         "type": "text",
+         "text": "¿Cómo se llama el objeto de AP que aumenta un 40% el poder de habilidad?",
+         "answer": "Sombrero mortal de rabadon"
+      },
+      {
+         "@id": "2",
+         "type": "text",
+         "text": "¿Cuál fue la skin victoriosa en la s1 si llegabas a oro?",
+         "answer": "Jarvan victorioso"
+      },
+      {
+         "@id": "3",
+         "type": "select",
+         "text": "¿Cómo se llama el objeto que proporciona 35% de penetración mágica?",
+         "option": [
+            "Bastón del vacío",
+            "La Sanguinaria",
+            "Vara de las edades",
+            "Ninguna"
+         ],
+         "answer": "3"
+      },
+      {
+         "@id": "4",
+         "type": "select",
+         "text": "¿Qué nombre recibe la habilidad definitiva (R) de Yasuo?",
+         "option": [
+            "Último aliento",
+            "SORIEKETON",
+            "Chispa final",
+            "Sentencia"
+         ],
+         "answer": "0"
+      },
+      {
+         "@id": "5",
+         "type": "multiple",
+         "text": "¿Qué personaje es capaz de crear un clon de sí mismo?",
+         "option": [
+            "Thresh",
+            "Shaco",
+            "Caitlyn",
+            "Galio"
+         ],
+         "answer": "1"
+      },
+      {
+         "@id": "6",
+         "type": "multiple",
+         "text": "¿Cuál de estos personajes no escala con AP?",
+         "option": [
+            "Talon",
+            "Lucian",
+            "Zed",
+            "Ashe"
+         ],
+         "answer": "2"
+      },
+      {
+         "@id": "7",
+         "type": "radio",
+         "text": "¿Cuánto reducción de enfiermiento proporciona el objeto La Cuchilla Negra?",
+         "option": [
+            "20%%",
+            "15%",
+            "10%",
+            "5%"
+         ],
+         "answer": "0"
+      },
+      {
+         "@id": "8",
+         "type": "radio",
+         "text": "¿Cómo se llama la definitiva de Thresh?",
+         "option": [
+            "La caja",
+            "La cárcel",
+            "La prisión",
+            "El cubo"
+         ],
+         "answer": "1"
+      },
+      {
+         "@id": "9",
+         "type": "checkbox",
+         "text": "¿Cuál de estos objetos te da AP?",
+         "option": [
+            "La Cuchilla Negra",
+            "Redención",
+            "Incensario ardiente",
+            "Sanguinaria"
+         ],
+         "answer": "2"
+      },
+      {
+         "@id": "10",
+         "type": "checkbox",
+         "text": "¿Cuál de estos campeones tiene 2 o más habilidades de stuneo?",
+         "option": [
+            "Leona",
+            "Warwick",
+            "Caitlyn",
+            "Thresh"
+         ],
+         "answer": "0"
+      }
+   ]
+}
