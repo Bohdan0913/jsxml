@@ -71,9 +71,11 @@ a:hover.about{
 }
 input[type=checkbox]{
 	width:50%;
+	zoom:1.5;
 }
 input[type=radio]{
 	width:50%;
+	zoom:1.5;
 }
 .l{
 	width:50%;
